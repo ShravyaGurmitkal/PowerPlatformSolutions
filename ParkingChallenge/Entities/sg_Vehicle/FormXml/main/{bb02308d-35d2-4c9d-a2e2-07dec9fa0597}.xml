@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{bb02308d-35d2-4c9d-a2e2-07dec9fa0597}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{c8db478f-dd71-4e6d-a8b6-83ad1ee071c7}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f72c4c83-a512-4250-8c4d-1a79f2f48bb5}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4cc7c83d-ccd8-4a5c-8eee-32b5a6255e5d}">
+                        <labels>
+                          <label description="VehicleName" languagecode="1033" />
+                        </labels>
+                        <control id="sg_vehiclename" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="sg_vehiclename" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1b2df95a-b87b-419e-adb3-b527b02631ea}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Make" languagecode="1033" />
+                        </labels>
+                        <control id="sg_make" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="sg_make" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6516fbe3-c3bd-4dd9-9265-dcabfa4e49f4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Model" languagecode="1033" />
+                        </labels>
+                        <control id="sg_model" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="sg_model" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e014dd52-8009-4231-9b49-730bc4519a6d}" locklevel="0" colspan="1" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="VehicleImage" languagecode="1033" />
+                        </labels>
+                        <control id="sg_vehicleimage" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="sg_vehicleimage" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9ac8e289-c556-4f9d-8172-ec531028f608}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="VehicleOwnerEmail" languagecode="1033" />
+                        </labels>
+                        <control id="sg_vehicleowneremail" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="sg_vehicleowneremail" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_3" id="86ab0860-774a-423e-869f-38ec2dae4d96" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Parking Requests" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{5056f997-663e-424a-b6b1-d8f9e35bff4f}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1760563042602" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>sg_parkingrequest_Vehicle_sg_vehicle</RelationshipName>
+                            <TargetEntityType>sg_parkingrequest</TargetEntityType>
+                            <ViewId>{A1BDF252-D491-4A72-910A-8EA5485F5FAA}</ViewId>
+                            <ViewIds>{A1BDF252-D491-4A72-910A-8EA5485F5FAA}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="null_section_4" id="2f562390-e9f0-4e08-93aa-b3283bd16c2c" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Parking Inspections" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{d3b8fcf8-0d1c-45cb-aeb4-3f9817b87399}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1760563111902" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>sg_parkinginspection_Vehicle_sg_vehicle</RelationshipName>
+                            <TargetEntityType>sg_parkinginspection</TargetEntityType>
+                            <ViewId>{20AF1292-F2F4-4CFC-BA5E-2F69F6047E85}</ViewId>
+                            <ViewIds>{20AF1292-F2F4-4CFC-BA5E-2F69F6047E85}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{1faf5e36-7dff-4796-8a92-6434c3cb8455}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{13fc30cc-d5bf-455c-a105-8debb5f98903}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e65ca281-c1c4-4c47-8568-2a9795b21d45}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ecb3bf9a-4eb0-4f8f-a293-7b8fc7136432}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{007695e3-b29c-4d6f-a9da-ee2e3b82eef5}" colspan="1" rowspan="1">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{149b0fe7-318a-4177-b0bf-56e0afec0f0b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{cdf89949-2031-44d4-9ed3-49c6e633c91d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{74b2b00a-08cc-40e2-8c04-22e666e5e7fe}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a16791c5-2ada-46d4-a40b-e8d0d50daa6f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

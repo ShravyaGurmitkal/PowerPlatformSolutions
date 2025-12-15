@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>sg_parkingreviewcanvasapp_d9719</Name>
+  <AppVersion>2025-10-23T21:03:42Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.25095.13.0</CreatedByClientVersion>
+  <MinClientVersion>3.25095.13.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.25095.13","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20251022T162904Z-3.25095.13.0"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>Parking Inspections Canvas App</DisplayName>
+  <Description>Parking management app for contoso school here they can review there parking inspections and add new parking inspections daily for their parking requests</Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified","environmentVariableName":""}},"dataSources":{"ParkingInspections":{"entitySetName":"sg_parkinginspections","logicalName":"sg_parkinginspection"},"Vehicles":{"entitySetName":"sg_vehicles","logicalName":"sg_vehicle"},"ParkingRequests":{"entitySetName":"sg_parkingrequests","logicalName":"sg_parkingrequest"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"sg_parkinginspection","componenttype":1},{"logicalname":"sg_vehicle","componenttype":1},{"logicalname":"sg_parkingrequest","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/sg_parkingreviewcanvasapp_d9719_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/sg_parkingreviewcanvasapp_d9719_DocumentUri.msapp</DocumentUri>
+  <AdditionalUris>
+    <AdditionalUri>/CanvasApps/sg_parkingreviewcanvasapp_d9719_AdditionalUris0_identity.json</AdditionalUri>
+  </AdditionalUris>
+</CanvasApp>

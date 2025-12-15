@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{1a818078-0eaa-f011-bbd2-6045bd0709bb}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="sg_parkingrequestname" select="1" icon="1" preview="1">
+        <row name="result" id="sg_parkingrequestid">
+          <cell name="sg_parkingrequestname" width="300" />
+          <cell name="sg_parkingrequestdatetime" width="185" />
+          <cell name="sg_vehicle" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" distinct="true">
+        <entity name="sg_parkingrequest">
+          <attribute name="sg_parkingrequestid" />
+          <attribute name="sg_parkingrequestname" />
+          <order attribute="sg_parkingrequestname" descending="false" />
+          <attribute name="sg_parkingrequestdatetime" />
+          <attribute name="sg_vehicle" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="sg_parkingrequestdatetime" operator="today" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active ParkingRequests Today" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="It shows the records that has parking requests date and time today" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

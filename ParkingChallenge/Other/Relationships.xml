@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_sg_parkinginspection" />
+  <EntityRelationship Name="business_unit_sg_parkingrequest" />
+  <EntityRelationship Name="business_unit_sg_vehicle" />
+  <EntityRelationship Name="lk_sg_parkinginspection_createdby" />
+  <EntityRelationship Name="lk_sg_parkinginspection_modifiedby" />
+  <EntityRelationship Name="lk_sg_parkingrequest_createdby" />
+  <EntityRelationship Name="lk_sg_parkingrequest_modifiedby" />
+  <EntityRelationship Name="lk_sg_vehicle_createdby" />
+  <EntityRelationship Name="lk_sg_vehicle_modifiedby" />
+  <EntityRelationship Name="owner_sg_parkinginspection" />
+  <EntityRelationship Name="owner_sg_parkingrequest" />
+  <EntityRelationship Name="owner_sg_vehicle" />
+  <EntityRelationship Name="sg_parkinginspection_ParkingRequest_sg_parkingrequest" />
+  <EntityRelationship Name="sg_parkinginspection_Vehicle_sg_vehicle" />
+  <EntityRelationship Name="sg_parkingrequest_Vehicle_sg_vehicle" />
+  <EntityRelationship Name="team_sg_parkinginspection" />
+  <EntityRelationship Name="team_sg_parkingrequest" />
+  <EntityRelationship Name="team_sg_vehicle" />
+  <EntityRelationship Name="user_sg_parkinginspection" />
+  <EntityRelationship Name="user_sg_parkingrequest" />
+  <EntityRelationship Name="user_sg_vehicle" />
+</EntityRelationships>
